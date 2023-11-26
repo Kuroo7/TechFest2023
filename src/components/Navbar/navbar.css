@@ -1,3 +1,20 @@
 .Navbar {
-  background: white;
+  /* background: white; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo-container {
+}
+.logo {
+  height: 100px;
+  width: 100px;
+}
+.nav-items {
+  /* margin-right: 200px; */
+}
+.nav-links {
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }

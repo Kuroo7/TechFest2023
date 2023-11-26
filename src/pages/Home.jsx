@@ -1,7 +1,19 @@
 
-import { About } from "../components/About/About"
+// import { About } from "../components/About/About"
+
+import Hero from "../components/Hero/Hero"
+import PastEvents from "../components/PastEvents/PastEvents"
+
+
+
 export const Home = () => {
     return (
-        <About/>
+        <>
+            <Hero />
+            {/* <About/> */}
+            <PastEvents />
+
+
+        </>
     )
 }

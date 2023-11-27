@@ -18,16 +18,26 @@
   /* border: 2px solid red; */
   /* display: flex; */
   padding: 50px;
+<<<<<<< Updated upstream
   /* padding-top: 100px; */
+=======
+  padding-top: 100px;
+>>>>>>> Stashed changes
   /* flex-basis: 100%; */
   /* height: 100vh; */
   width: 60%;
   flex-wrap: wrap;
   justify-content: space-between;
 }
+<<<<<<< Updated upstream
 .PEleft h1 {
   /* padding-top: 100px; */
   color: #39ff14;
+=======
+.PEleft h1{
+  /* padding-top: 100px; */
+  color: #39FF14;
+>>>>>>> Stashed changes
   font-size: 8rem;
   font-weight: 700;
   line-height: 100px;

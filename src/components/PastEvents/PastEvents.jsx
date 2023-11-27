@@ -1,3 +1,4 @@
+
 import "./pastEvents.css"
 const PastEvents = () => {
     return (
@@ -16,35 +17,34 @@ const PastEvents = () => {
                         </button>
                     </div>
                     <div className="PEright">
-                        <div className="cards">
-                            <div className="card1 card">
-                                <h5>Performer</h5>
-                                <div className="cardimg1 cimg">
-                                    <img src="/src/assets/sample.jpeg" alt="" />
-                                </div>
+                        <div className="card">
+                            <h5>Performer</h5>
+                            <div className="card-image">
+                                <img className="background-img" src="/src/assets/sample.jpeg" alt="" />
                             </div>
-                            <div className="card2 card">
-                                <h5>Performer</h5>
-                                <div className="cardimg2 cimg">
-                                    <img src="/src/assets/sample.jpeg" alt="" />
-                                </div>
+                        </div>
+                        <div className="card">
+                            <h5>Performer</h5>
+                            <div className="card-image">
+                                <img className="background-img" src="/src/assets/sample.jpeg" alt="" />
                             </div>
-                            <div className="card3 card">
-                                <h5>Performer</h5>
-                                <div className="cardimg3 cimg">
-                                    <img src="/src/assets/sample.jpeg" alt="" />
-                                </div>
+                        </div>
+                        <div className="card">
+                            <h5>Performer</h5>
+                            <div className="card-image">
+                                <img className="background-img" src="/src/assets/sample.jpeg" alt="" />
                             </div>
-                            <div className="card4 card">
-                                <h5>Performer</h5>
-                                <div className="cardimg4 cimg">
-                                    <img src="/src/assets/sample.jpeg" alt="" />
-                                </div>
+                        </div>
+                        <div className="card">
+                            <h5>Performer</h5>
+                            <div className="card-image">
+                                <img className="background-img" src="/src/assets/sample.jpeg" alt="" />
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
         </>
     )
 }

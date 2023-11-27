@@ -1,103 +1,130 @@
 @import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600&display=swap");
 .PastEvents {
-  /* position: relative; */
-  height: 100vh;
-  width: 100vw;
-  background-color: rgb(0, 0, 0);
+  width: 100%;
+  min-height: 100vh;
+  padding-left: 8%;
+  padding-right: 8%;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
 }
 .know {
+  margin-top: 100px;
   display: flex;
+  height: 88%;
   align-items: center;
-  justify-content: space-between;
-  height: 100%;
-  /* overflow: hidden; */
-  width: 100%;
   font-family: "Chakra Petch", sans-serif;
 }
 .PEleft {
-  /* border: 2px solid red; */
-  /* display: flex; */
-  padding: 50px;
-<<<<<<< Updated upstream
-  /* padding-top: 100px; */
-=======
-  padding-top: 100px;
->>>>>>> Stashed changes
-  /* flex-basis: 100%; */
-  /* height: 100vh; */
-  width: 60%;
+  margin-left: 50px;
+  flex-basis: 50%;
+  display: flex;
+  justify-content: space-evenly;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
-<<<<<<< Updated upstream
 .PEleft h1 {
-  /* padding-top: 100px; */
   color: #39ff14;
-=======
-.PEleft h1{
-  /* padding-top: 100px; */
-  color: #39FF14;
->>>>>>> Stashed changes
-  font-size: 8rem;
+  overflow: hidden;
+  font-size: 100px;
   font-weight: 700;
   line-height: 100px;
 }
 .PEleft p {
   color: white;
+  padding-top: 5%;
   font-size: 20px;
 }
 .PEright {
-  /* border: 2px solid yellow; */
+  flex-basis: 50%;
+  padding: auto;
+  margin-left: 100px;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  width: 40%;
-  margin: auto;
-  padding: auto;
+  flex-wrap: wrap;
 }
 .card {
-  /* border: 2px solid red; */
-  background-color: #39ff14;
+  width: 200px;
+  height: 210px;
+  display: inline-block;
   border-radius: 10px;
+  padding: 10px 0 0 0;
   box-sizing: border-box;
   cursor: pointer;
-  display: inline-block;
-  height: 210px;
   margin: 10px 15px;
-  overflow: hidden;
-  padding: 10px 0 0;
+  background-color: #39ff14;
   transition: 0.5s ease;
-  width: 200px;
+  overflow: hidden;
 }
 .card h5 {
-  /* border: 2px solid aquamarine; */
-  color: black !important;
-  font-weight: 600 !important;
-  text-align: center;
   font-size: 1.25rem;
-  margin-bottom: 0.5rem;
-  font-weight: 500;
-  line-height: 1.2;
-  overflow: hidden;
+  color: black !important;
+  font-weight: bolder !important;
+  text-align: center;
 }
-.cimg img {
-  height: 190px;
+.card-image {
+  overflow-y: hidden;
+}
+
+.background-img {
   width: 100%;
-  object-fit: contain;
+  height: 190px;
+  object-fit: cover;
 }
 
 .PEbutton {
   cursor: pointer;
+  margin-right: auto;
+  align-items: center;
   font-size: x-large;
   background-color: black;
   border-color: #39ff14;
-  /* padding: 1rem; */
   height: fit-content;
   width: 25%;
-  padding: 20px 0px;
-  /* padding : 20px; */
-  border-radius: 30px;
+  margin-top: 10px;
+  padding: 15px 0px;
+  border-radius: 20px;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #39ff14;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .know {
+    flex-direction: column;
+  }
+  .PEleft h1 {
+    color: #39ff14;
+    font-size: 60px;
+    font-weight: 700;
+
+    line-height: 70px;
+  }
+  .card {
+    width: 130px;
+    height: 180px;
+  }
+  .card h5 {
+    font-size: 14px;
+  }
+  .background-img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .PEbutton {
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0px 14px 0px;
+    display: flex;
+    margin: auto;
+  }
+  .PEright {
+    margin-left: 40px;
+  }
 }

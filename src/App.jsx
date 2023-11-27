@@ -1,20 +1,21 @@
+import { useEffect, useState } from 'react';
 import './App.css'
-import Navbar from './components/Navbar/Navbar'
-import { Routes, Route } from "react-router-dom";
-import { Home } from './pages/Home';
-
+import Mroutes from './pages/Mroutes'
+import PreLoader from './components/PreLoader/PreLoader';
 function App() {
-
+  const [showSite, setSite] = useState(false)
+  useEffect(() => {
+    setTimeout(() => {
+      setSite(true)
+    }, 4000)// eslint-disable-next-line
+  }, [])
   return (
     <>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />}>
-          {/* <Route path="blogs" element={<Blogs />} />
-            <Route path="contact" element={<Contact />} />
-            <Route path="*" element={<NoPage />} /> */}
-        </Route>
-      </Routes>
+      {(showSite)
+        ? <Mroutes /> :
+        <PreLoader />
+      }
+      {/* <PreLoader /> */}
     </>
   )
 }

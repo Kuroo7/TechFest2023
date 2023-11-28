@@ -21,7 +21,7 @@ const Navbar = () => {
                 <a className="nav-links" to="/" >Events</a>
                 <a className="nav-links" href="#faq_carousel">FAQ</a>
                 <Link className="nav-links" to="/" >Team</Link>
-                <a className="nav-links buy-button" href="#">Get Ticket</a>
+                <a className="buy-button" href="#">Get Ticket</a>
             </div>
 
         </nav>

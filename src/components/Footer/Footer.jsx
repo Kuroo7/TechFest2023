@@ -77,7 +77,7 @@ const Footer = () => {
                 <ul className="social-list">
 
                   <li>
-                    <a href='https://instagram.com/genero.abesec'><FontAwesomeIcon className='socialIcon' icon={faInstagram} /></a>
+                    <a href='https://www.instagram.com/pravaah_abesec'><FontAwesomeIcon className=' socialIcon' icon={faInstagram} /></a>
 
                   </li>
 
@@ -127,11 +127,11 @@ const Footer = () => {
 
 
           </div>
-        </div>
+        </div >
 
 
         <br />
-      </footer>
+      </footer >
     </>
   )
 }

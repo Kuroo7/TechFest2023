@@ -45,6 +45,7 @@
   flex-wrap: wrap;
 }
 .card {
+  /* border: 2px solid yellow; */
   width: 200px;
   height: 210px;
   display: inline-block;

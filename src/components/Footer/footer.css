@@ -1,9 +1,3 @@
-/* Css code goes here */
-.Footer {
-  /* height: 100vh;
-  width: 100vw;
-  background-color: red; */
-}
 *,
 *::before,
 *::after {
@@ -30,7 +24,7 @@ select,
 button,
 ion-icon {
   display: block;
-  pointer-events: none;
+  /* pointer-events: none; */
 }
 
 address {
@@ -155,7 +149,9 @@ address {
     padding-top: 8%;
   }
 }
-
+.Logo-image {
+  margin-top: 20px;
+}
 @media (min-width: 300px) {
   .footer-list {
     margin-left: 3%;
@@ -169,6 +165,9 @@ address {
   }
 }
 @media (min-width: 768px) {
+  .Logo-image {
+    margin-top: 50px;
+  }
   .footer {
     padding-block-start: 50px;
   }

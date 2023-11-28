@@ -12,8 +12,7 @@ const Footer = () => {
           <div className="container">
 
             <div className="footer-brand">
-              <p><img src={techlogo} width="200px" />
-              </p>
+              <img className="Logo-image" src={techlogo} width="200px" />
 
 
               <p className="footer-text">

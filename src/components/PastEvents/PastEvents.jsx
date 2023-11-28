@@ -3,7 +3,7 @@ import "./pastEvents.css"
 const PastEvents = () => {
     return (
         <>
-            <div className="PastEvents">
+            <div className="PastEvents" id="past_carousel">
                 <div className="know">
                     <div className="PEleft">
                         <h1>

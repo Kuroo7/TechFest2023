@@ -1,102 +1,82 @@
 @import url("https://fonts.googleapis.com/css2?family=Nova+Square&family=Rubik:wght@400;500;700&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: black;
-    font-family: 'Nova Square', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* color: black; */
+  font-family: "Nova Square", sans-serif;
 }
 
-.faq{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    /* background: url("./Assets/01.png") ; */
-
-    background-color: black;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+.faq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: black;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-.accordion{
-
-    width: 800px;
-    margin: 0 10px;
-
+.accordion {
+  width: 800px;
+  margin: 0 10px;
 }
-.accordion h4{
-    color: rgb(0, 255, 149);
-    font-size: 26px;
+.accordion h4 {
+  color: rgb(0, 255, 149);
+  font-size: 26px;
 }
-.accordion .content-box{
-    position: relative;
+.accordion .content-box {
+  position: relative;
+  font-size: 21px;
+}
+@media only screen and (max-width: 680px) {
+  .accordion h4 {
     font-size: 21px;
+  }
+  .accordion .content-box {
+    font-size: 16px;
+  }
 }
-@media only screen and (max-width:680px){
-    .accordion h4{
-        font-size:21px;
-    }
-    .accordion .content-box{
-        font-size: 16px;
-    }
+@media only screen and (max-width: 400px) {
+  .accordion h4 {
+    font-size: 16px;
+  }
+  .accordion .content-box {
+    font-size: 14px;
+  }
 }
-@media only screen and (max-width:400px){
-    .accordion h4{
-        font-size:16px;
-    }
-    .accordion .content-box{
-        font-size: 14px;
-    }
+.accordion .content-box .label {
+  position: relative;
+  padding: 10px;
+  color: rgb(18, 236, 134);
+  background-color: black;
+  cursor: pointer;
+  border-bottom: 2px solid rgb(113, 156, 119);
 }
-.accordion .content-box .label{
-    position: relative;
-    padding: 10px;
-    color: rgb(18, 236, 134);
-    background-color: black;
-    cursor: pointer;
-    border-bottom: 2px solid rgb(113, 156, 119);
-
+.accordion .content-box .label::before {
+  content: "+";
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  font-size: 1.5em;
 }
-.accordion .content-box .label::before{
-    content: '+';
-    position: absolute;
-    top: 50%;
-    right: 20px;
-    transform: translateY(-50%);
-    font-size: 1.5em;
+.accordion .content-box .label.active::before {
+  content: "-";
 }
-.accordion .content-box .label.active::before{
-    content: '-';
+.accordion .content-box .content {
+  position: relative;
+  background-color: black;
+  height: 0;
+  overflow: hidden;
+  transition: 0.5s;
+  overflow-y: auto;
 }
-/* .accordion .content-box.active .label{
-    border-top: 2px solid rgb(113, 156, 119);
-
-} */
-.accordion .content-box .content{
-    position: relative;
-    /* padding: 10px; */
-    /* background-color: rgb(24, 22, 22); */
-    background-color: black;
-    /* background-color: aliceblue; */
-    height: 0;
-    overflow: hidden;
-    transition: .5s;
-    overflow-y: auto;
+.accordion .content-box .content p {
+  color: rgb(228, 222, 222);
 }
-.accordion .content-box .content p{
-    color: rgb(228, 222, 222);
+.accordion .content-box .label.active + .content {
+  height: fit-content;
+  padding: 10px;
 }
-.accordion .content-box .label.active+.content{
-    height: fit-content;
-    padding: 10px;
-}
-/* .accordion .content-box .label.after::before{
-    content: '-';
-    position: absolute;
-    top: 50%;
-    right: 20px;
-    transform: translateY(-50%);
-    font-size: 1.5em;
-} */

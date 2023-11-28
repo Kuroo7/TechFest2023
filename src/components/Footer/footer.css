@@ -36,6 +36,8 @@ address {
   color: hsl(216, 12%, 84%);
   margin-block-start: 0px;
   padding-block-start: 100px;
+  /* height: 50vh; */
+  /* width: 100vh; */
 }
 
 .footer-text {
@@ -66,12 +68,8 @@ address {
   align-items: center;
   gap: 5px;
   transition: 0.25 ease;
+  overflow: hidden;
 }
-
-.footer-link ion-icon {
-  font-size: 14px;
-}
-
 .footer-link:is(:hover, :focus) {
   opacity: 0.8;
 }
@@ -119,21 +117,24 @@ address {
   display: flex;
   align-items: center;
   gap: 10px;
-  margin-bottom: 25px;
+  margin-bottom: 2px;
 }
-
-.social-link {
-  color: hsl(218, 11%, 65%);
-  border: 1px solid rgb(37, 218, 37);
-  padding: 4px;
-  border-radius: 6px;
-}
-
-.social-link:is(:hover, :focus) {
-  background-color: rgb(35, 218, 35);
-  border-color: rgb(35, 218, 35);
+.socialIcon {
   color: white;
+  font-size: 30px;
 }
+
+.map {
+  margin-top: 25px;
+}
+.rounded {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
 @media (min-width: 640px) {
   .footer {
     padding-block-start: 50px;
@@ -149,9 +150,6 @@ address {
     padding-top: 8%;
   }
 }
-.Logo-image {
-  margin-top: 20px;
-}
 @media (min-width: 300px) {
   .footer-list {
     margin-left: 3%;
@@ -164,12 +162,17 @@ address {
     margin-top: -30%;
   }
 }
-@media (min-width: 768px) {
+
+@media screen and (max-width: 600px) {
   .Logo-image {
-    margin-top: 50px;
+    margin-top: 60px;
   }
+}
+
+@media screen and (min-width: 600px) {
   .footer {
     padding-block-start: 50px;
+    /* margin-top: 20px; */
   }
 
   .footer-top .container {
@@ -179,9 +182,7 @@ address {
 
   .footer-brand {
     grid-column: 1 / 4;
-  }
-  .footer-brand {
-    margin-top: -20%;
+    margin-top: 20%;
   }
 
   .footer-bottom .container {
@@ -199,7 +200,9 @@ address {
     grid-column: auto;
     margin-top: -25%;
   }
-
+  .Logo-image {
+    margin-top: 15px;
+  }
   .footer-top .container {
     grid-template-columns: 1fr 0.5fr 0.6fr 0.7fr;
   }

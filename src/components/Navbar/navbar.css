@@ -29,6 +29,9 @@
   filter: drop-shadow(1px 1px 15px rgb(34, 255, 0));
   animation: flicker 2s infinite;
 }
+.nav-items {
+  display: flex;
+}
 .nav-links {
   font-size: 20px;
   padding-left: 20px;

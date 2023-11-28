@@ -40,7 +40,7 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#" className="footer-link">
+                <a href="#events_carousel" className="footer-link">
                   <FontAwesomeIcon icon={faChevronRight} beat />
 
                   <span className="span">Events</span>
@@ -50,14 +50,14 @@ const Footer = () => {
 
 
               <li>
-                <a href="#" className="footer-link">
+                <a href="#past_carousel" className="footer-link">
                   <FontAwesomeIcon icon={faChevronRight} beat />
 
                   <span className="span">Past Events</span>
                 </a>
               </li>
               <li>
-                <a href="#" className="footer-link">
+                <a href="#faq_carousel" className="footer-link">
                   <FontAwesomeIcon icon={faChevronRight} beat />
                   <span className="span">FAQ</span>
                 </a>

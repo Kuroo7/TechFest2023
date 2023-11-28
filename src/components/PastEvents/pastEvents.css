@@ -125,6 +125,9 @@
     margin: auto;
   }
   .PEright {
-    margin-left: 40px;
+    margin-left: 0px;
+  }
+  .PEleft {
+    margin: 0;
   }
 }

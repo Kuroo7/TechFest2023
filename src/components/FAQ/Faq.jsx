@@ -20,7 +20,7 @@ const Faq = () => {
 
   return (
     <>
-      <div className="faq">
+      <div className="faq" id="faq_carousel">
         <div className="accordion">
           <h4>Frequently asked questions</h4>
           <div className="content-box">

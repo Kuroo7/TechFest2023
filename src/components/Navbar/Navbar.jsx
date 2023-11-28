@@ -18,10 +18,10 @@ const Navbar = () => {
                 <Link className="nav-links" to="/" >Home</Link>
                 <a className="nav-links" href="#about_carousel">About</a>
                 <a className="nav-links" href="#past_carousel">Past</a>
-                {/* <Link className="nav-links" to="/" >Past</Link > */}
-                <Link className="nav-links" to="/" >This Year</Link>
-                <Link className="nav-links" to="/" >FAQ</Link>
+                <a className="nav-links" to="/" >Events</a>
+                <a className="nav-links" href="#faq_carousel">FAQ</a>
                 <Link className="nav-links" to="/" >Team</Link>
+                <a className="nav-links buy-button" href="#">Get Ticket</a>
             </div>
 
         </nav>

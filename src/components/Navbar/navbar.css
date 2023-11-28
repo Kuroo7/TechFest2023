@@ -23,6 +23,10 @@
 }
 /* .logo-container {
 } */
+.buy-button {
+  background-color: #39ff14;
+  color: black;
+}
 .logo {
   height: 100px;
   width: 200px;

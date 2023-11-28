@@ -30,7 +30,7 @@
 .logo {
   height: 100px;
   width: 200px;
-  filter: drop-shadow(1px 1px 15px rgb(34, 255, 0));
+  filter: drop-shadow(1px 1px 7px rgb(72, 255, 43));
   animation: flicker 2s infinite;
 }
 .nav-items {
@@ -59,7 +59,7 @@
     opacity: 0.97;
   }
   25% {
-    opacity: 0.9;
+    opacity: 0.85;
   }
   30% {
     opacity: 0.99;

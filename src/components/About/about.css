@@ -58,8 +58,9 @@
   flex-wrap: wrap;
 }
 .right img{
-    height: 33rem;
-    width: 33rem;
+    height: 40rem;
+    width: 40rem;
+    object-fit: cover;
 }
 .buttons{
   display:flex;

@@ -17,6 +17,7 @@ const Navbar = () => {
             <div className="nav-items" >
                 <Link className="nav-links" to="/" >Home</Link>
                 <a className="nav-links" href="#about_carousel">About</a>
+
                 <a className="nav-links" href="#past_carousel">Past</a>
                 <a className="nav-links" to="/" >Events</a>
                 <a className="nav-links" href="#faq_carousel">FAQ</a>

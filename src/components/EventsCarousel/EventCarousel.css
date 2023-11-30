@@ -1,0 +1,100 @@
+body {
+    align-items: center;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    background-image: url("01Bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel{
+    border-radius: 15px;
+    width: 80%;
+    background: none;
+}
+
+.slider1, .slider2, .slider3 {
+    height: 170px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    border-radius: 15px;
+}
+
+.slider1::before,.slider1::after, .slider2::before,.slider2::after, .slider3::before,.slider3::after {
+    /* background: linear-gradient(to right, rgba(46, 255, 46, 0.217) 0%, rgba(46, 255, 46, 0) 100%); */
+    border-radius: 10px;
+    content: "";
+    height: 170px;
+    position: absolute;
+    width: 200px;
+    z-index: 2;
+}
+
+.slider1::before, .slider2::before,.slider3::before {
+    left: 0;
+    top: 0;
+}
+
+.slider1::after,.slider2::after,.slider3::after  {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+}
+
+.slider1 .slide-track {
+    animation: scroll 80s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+}
+.slider2 .slide-track {
+    animation: scroll-reverse 100s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+}
+.slider3 .slide-track {
+    animation: scroll 90s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+}
+
+.slide-track:focus, .slide-track:hover {
+    animation-play-state: paused;
+}
+
+.slide {
+    height: 170px;
+    width: 170px;
+    padding: 0px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slide img {
+    height: 130px;
+    width: 150px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgb(0, 255, 0),
+    0px 0px 20px rgb(111, 252, 111),
+    0px 0px 30px rgb(191, 255, 191)
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-250px * 7));
+    }
+}
+@keyframes scroll-reverse {
+    100% {
+        transform: translateX(0);
+    }
+    0% {
+        transform: translateX(calc(-250px * 7));
+    }
+}

@@ -5,7 +5,7 @@ body {
     flex-direction: column;
     height: 100vh;
     justify-content: center;
-    background-image: url("01Bg.png");
+    background-image: url("/src/assets/01Bg.png");
     background-repeat: no-repeat;
     background-size: cover;
 }

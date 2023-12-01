@@ -22,6 +22,7 @@ const Faq = () => {
     <>
       <div className="faq" id="faq_carousel">
         <div className="accordian">
+          <h1>Frequently asked questions</h1>
           <div className="content-box">
             <label htmlFor="ques-1" className="label">
               <span>Question 1</span>

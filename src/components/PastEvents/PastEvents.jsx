@@ -1,5 +1,6 @@
 
 import "./pastEvents.css"
+// import EventCarousel from "../EventsCarousel/EventCarousel"
 const PastEvents = () => {
     return (
         <>
@@ -52,6 +53,9 @@ const PastEvents = () => {
                     </div>
                 </div>
             </div>
+            {/* <div className="carousel-container">
+                <EventCarousel />
+            </div> */}
 
         </>
     )

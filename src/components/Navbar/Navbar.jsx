@@ -29,7 +29,7 @@ const Navbar = () => {
                     <a className="nav-links" href="#past_carousel">Past</a>
                 </span>
                 <span className="nav-up">
-                    <a className="nav-links" to="/" >Events</a>
+                    <a className="nav-links" href="#events_carousel" >Events</a>
                 </span>
                 <span className="nav-up">
                     <a className="nav-links" href="#faq_carousel">FAQ</a>

@@ -35,7 +35,7 @@ const Navbar = () => {
                     <a className="nav-links" href="#faq_carousel">FAQ</a>
                 </span>
                 <span className="nav-up">
-                    <Link className="nav-links" to="/" >Team</Link>
+                    <Link className="nav-links" to="/team" >Team</Link>
                 </span>
                 <a className="buy-button" href="#">Get Ticket</a>
 

@@ -98,11 +98,11 @@
     transform: translateX(0);
   }
   100% {
-    transform: translateX(calc(-40px * 7));
-    -webkit-transform: translateX(calc(-40px * 7));
-    -moz-transform: translateX(calc(-40px * 7));
-    -ms-transform: translateX(calc(-40px * 7));
-    -o-transform: translateX(calc(-40px * 7));
+    transform: translateX(calc(-50px * 7));
+    -webkit-transform: translateX(calc(-50px * 7));
+    -moz-transform: translateX(calc(-50px * 7));
+    -ms-transform: translateX(calc(-50px * 7));
+    -o-transform: translateX(calc(-50px * 7));
   }
 }
 @keyframes scroll-reverse {
@@ -110,10 +110,16 @@
     transform: translateX(0);
   }
   0% {
-    transform: translateX(calc(-40px * 7));
-    -webkit-transform: translateX(calc(-40px * 7));
-    -moz-transform: translateX(calc(-40px * 7));
-    -ms-transform: translateX(calc(-40px * 7));
-    -o-transform: translateX(calc(-40px * 7));
+    transform: translateX(calc(-50px * 7));
+    -webkit-transform: translateX(calc(-50px * 7));
+    -moz-transform: translateX(calc(-50px * 7));
+    -ms-transform: translateX(calc(-50px * 7));
+    -o-transform: translateX(calc(-50px * 7));
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .carousel-container {
+    background-color: black;
   }
 }

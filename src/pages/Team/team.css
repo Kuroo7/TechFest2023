@@ -1,0 +1,5 @@
+.card-container,
+::after,
+::before {
+  box-sizing: border-box;
+}

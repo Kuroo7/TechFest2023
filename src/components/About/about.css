@@ -1,12 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600&display=swap');
-*{
-    margin: 0px;
-    box-sizing: border-box;
-  }
-  .about{
+@import url("https://fonts.googleapis.com/css2?family=Nova+Square&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600&display=swap");
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+.about {
   background-image: url(../../assets/bg1.png);
+  background-repeat: no-repeat;
   background-size: 100vw 100vh;
+
   width: 100%;
   min-height: 100vh;
   padding-left: 8%;
@@ -16,7 +18,7 @@
   align-items: center;
   justify-content: center;
 }
-.about-container{
+.about-container {
   margin-top: 100px;
   display: flex;
   height: 88%;
@@ -29,26 +31,26 @@
 .white {
   color: white;
 }
-.left{
+.left {
   margin-left: 50px;
   flex-basis: 50%;
   display: flex;
   /* justify-content: center; */
   flex-wrap: wrap;
 }
-.left h1{
+.left h1 {
   color: #39ff14;
   overflow: hidden;
   font-size: 100px;
   font-weight: 700;
   line-height: 100px;
 }
-.left p{
+.left p {
   color: white;
   padding-top: 5%;
   font-size: 20px;
 }
-.right{
+.right {
   flex-basis: 50%;
   padding: auto;
   margin-left: 100px;
@@ -57,18 +59,18 @@
   align-items: center;
   flex-wrap: wrap;
 }
-.right img{
-    height: 40rem;
-    width: 40rem;
-    object-fit: cover;
+.right img {
+  height: 40rem;
+  width: 40rem;
+  object-fit: cover;
 }
-.buttons{
-  display:flex;
+.buttons {
+  display: flex;
   align-items: center;
   padding: 20px;
   padding-left: 0;
   width: 65%;
-  justify-self:last baseline;
+  justify-self: last baseline;
 }
 .events {
   background-color: #39ff14;
@@ -80,9 +82,8 @@
   /* margin: 20px; */
   cursor: pointer;
   height: fit-content;
-
 }
-.buy{
+.buy {
   cursor: pointer;
   margin-left: auto;
   align-items: center;
@@ -100,10 +101,9 @@
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
-    
 }
 @media screen and (max-width: 600px) {
-  .about{
+  .about {
     background: black;
   }
   .about-container {
@@ -116,10 +116,10 @@
 
     line-height: 70px;
   }
-  .buttons{
+  .buttons {
     width: 100%;
   }
-  .events{
+  .events {
     width: 40%;
     font-size: 20px;
     justify-content: center;

@@ -3,24 +3,37 @@
 /* *, ::after, ::before {
     box-sizing: border-box;
 } */
-.team-card {
-  margin-top: 64px;
+
+.all-cards{
+  margin-top: 100px;
+  margin-bottom: 50px;
   height: 100%;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  color: #fff;
+  font-family: "Chakra Petch", sans-serif;
+}
+.head-card{
+  margin-bottom: 20px;
   background-color: black;
-  /* margin: 70px; */
   display: flex;
   justify-content: space-evenly;
-  font-weight: 600;
   gap: 20px;
   flex-wrap: wrap;
 }
-div {
-  display: block;
+.team-cards {
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  flex-wrap: wrap;
 }
+
 .main-card {
-  color: #fff;
-  font-family: "Chakra Petch", sans-serif;
   margin: 20px;
   background-color: rgb(5, 20, 5);
   border-radius: 10px;
@@ -57,7 +70,7 @@ div {
 
 .back {
   height: 170px;
-  background-image: url("hacker.jpg");
+  background-image: url("/src/assets/hacker.jpg");
   background-size: cover;
   background-position: 1px;
 }
@@ -70,6 +83,7 @@ div {
 .circle {
   border-radius: 50%;
   margin: 0 50px;
+  margin-top: -10px;
 }
 
 .photo img {
@@ -86,40 +100,46 @@ div {
 }
 
 .info h3 {
-  font-size: 20px;
-  padding: 10px 0;
+  font-size: 23px;
+  padding: 0 0 7px 0;
   margin: 0 0 8px;
 }
 .post {
-  font-size: 15px;
+  font-size: 18px;
   margin-bottom: 0;
 }
 .desc {
-  font-size: 13px;
-  padding: 0px 20px;
-  line-height: 18px;
+  font-size: 15px;
+  padding: 0px 17.5px;
+  line-height: 18.5px;
+  margin: 13px 0;
 }
 .contact {
   font-size: 15px;
+  margin: 14px 0 0 0;
 }
 
 .info a {
   text-decoration: none;
   color: white;
-  margin: 5px 0 0;
   padding: 0px 5px;
   font-size: 22px;
 }
-.info i:hover {
+.social{
+  margin: 10px 0 0;
+  display: flex;
+  justify-content: center;
+}
+.info .socialIcon:hover {
   color: #b1ffb1;
   cursor: pointer;
   filter: drop-shadow(0 0 7px rgba(68, 255, 68, 0.461));
 }
 @media screen and (max-width: 400px) {
-  body {
+  .all-cards {
     display: flex;
     flex-direction: column;
-    margin: 0;
+    margin-top: 100px 0 50px 0;
     align-items: center;
   }
 }

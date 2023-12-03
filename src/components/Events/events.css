@@ -5,63 +5,63 @@
   /* background-color: aliceblue; */
   justify-content: space-evenly;
   align-items: center;
-  overflow:hidden ;
+  overflow: hidden;
 }
 
-.wrapper{
+.wrapper {
   /* height: 40vh; */
   /* width: 100vw; */
-  margin-top: 200px;
+  /* margin-top: 200px; */
   display: flex;
-  justify-content: center ;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
-.profile-box1{
+.profile-box1 {
   height: 200px;
-    width: 350px;
-    background: url(/src/assets/Day1.avif);
-    background-size: cover;
-    border-radius: 25px;
-    margin: 120px;
-    padding: 2rem 1rem;
-    box-shadow: 3px 3px 34px green;
-    OVERFLOW-Y: HIDDEN;
+  width: 350px;
+  background: url(/src/assets/Day1.avif);
+  background-size: cover;
+  border-radius: 25px;
+  margin: 120px;
+  padding: 2rem 1rem;
+  box-shadow: 3px 3px 34px green;
+  overflow-y: HIDDEN;
 }
-.profile-box1:hover{
+.profile-box1:hover {
   opacity: 80%;
 }
-.text{
+.text {
   text-align: center;
   font-size: 35px;
   color: white;
   text-shadow: 1px 1px 2px black, 0 0 25px, 0 0 5px greenyellow;
   margin-top: 15px;
 }
-.profile-box2{
+.profile-box2 {
   height: 200px;
   width: 350px;
- background: url(../../assets/Day2.jpg);
+  background: url(../../assets/Day2.jpg);
   background-size: cover;
   border-radius: 25px;
   margin: 120px;
   padding: 2rem 1rem;
   box-shadow: 3px 3px 34px green;
-  OVERFLOW-Y: HIDDEN;
+  overflow-y: HIDDEN;
 }
-.profile-box2:hover{
+.profile-box2:hover {
   opacity: 80%;
 }
 @media screen and (max-width: 768px) {
-  .wrapper{
+  .wrapper {
     flex-direction: column;
     margin-top: 217px;
     position: absolute;
   }
-   .profile-box1{
+  .profile-box1 {
     margin-top: 31px;
-   } 
-   .profile-box2{
+  }
+  .profile-box2 {
     margin-top: 7px;
-   }
+  }
 }

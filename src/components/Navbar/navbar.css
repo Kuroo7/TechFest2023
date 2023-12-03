@@ -43,8 +43,8 @@
   -o-border-radius: 20px;
 }
 .logo {
-  height: 100px;
-  width: 200px;
+  height: 65px;
+  width: 130px;
   filter: drop-shadow(1px 1px 7px rgb(72, 255, 43));
   animation: flicker 2s infinite;
 }

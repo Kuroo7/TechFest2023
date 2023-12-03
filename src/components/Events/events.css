@@ -18,14 +18,15 @@
   flex-wrap: wrap;
 }
 .profile-box1{
-  height: 150px;
-  width: 350px;
-  background: url(../../assets/Day1.avif);
-  background-size: cover;
-  border-radius: 25px;
-  margin: 120px;
-  padding: 2rem 1rem;
-  box-shadow: 3px 3px 34px green;
+  height: 200px;
+    width: 350px;
+    background: url(/src/assets/Day1.avif);
+    background-size: cover;
+    border-radius: 25px;
+    margin: 120px;
+    padding: 2rem 1rem;
+    box-shadow: 3px 3px 34px green;
+    OVERFLOW-Y: HIDDEN;
 }
 .profile-box1:hover{
   opacity: 80%;
@@ -35,22 +36,32 @@
   font-size: 35px;
   color: white;
   text-shadow: 1px 1px 2px black, 0 0 25px, 0 0 5px greenyellow;
+  margin-top: 15px;
 }
 .profile-box2{
-  height: 150px;
-  width: 350px;;
-  background: url(../../assets/Day2.jpg);
+  height: 200px;
+  width: 350px;
+ background: url(../../assets/Day2.jpg);
   background-size: cover;
   border-radius: 25px;
   margin: 120px;
   padding: 2rem 1rem;
   box-shadow: 3px 3px 34px green;
+  OVERFLOW-Y: HIDDEN;
 }
 .profile-box2:hover{
   opacity: 80%;
 }
-@media screen and (max-width: 600px) {
-  .profile-box1{
-    height: 10px;
+@media screen and (max-width: 768px) {
+  .wrapper{
+    flex-direction: column;
+    margin-top: 217px;
+    position: absolute;
   }
+   .profile-box1{
+    margin-top: 31px;
+   } 
+   .profile-box2{
+    margin-top: 7px;
+   }
 }

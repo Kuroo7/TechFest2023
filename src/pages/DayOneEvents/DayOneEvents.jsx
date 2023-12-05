@@ -5,7 +5,7 @@ const DayOneEvents = () => {
             <div className="DayOne-container">
                 <div className="ecard1">
                     <div className="eimage">
-                        <img src="/src/assets/robo.jpg"/>
+                        <img src="../../assets/robo.jpg"/>
                     </div>
                     <div className="ename">
                         <p><img src="/src/assets/staricon.png" alt="" className="star"/></p>
@@ -15,7 +15,6 @@ const DayOneEvents = () => {
                     <hr className="hr"/>
                     <div className="but">
                         <button className="register">Register</button>
-                        {/* <div className="vertical"></div> */}
                         <button className="explore">Explore</button>
                     </div>
                 </div>

@@ -1,5 +1,82 @@
 .DayOne-container {
   height: 100vh;
   width: 100vw;
-  background-color: aqua;
+  background-color: black;
+}
+.ecard1{
+  margin: 10%;
+  width: 200px;
+  height: 260px;
+  background: url("/src/assets/day1bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid goldenrod;
+  /* border-style:groove; */
+  text-align: center;
+  align-items: center;
+}
+.eimage{
+  width: 180px;
+  height: auto;
+  margin-top: 15px;
+  margin-left: 8px;
+  margin-bottom: 18px;
+}
+.eimage img{
+  width: 180px;
+  height: auto;
+  border: 1px solid goldenrod;
+  border-style: dashed;
+}
+.ename{
+  display: flex;
+  justify-content:space-around;
+  margin-bottom: 18px;
+}
+.star{
+  height: 30px;
+  width: 30px;
+}
+.eventname{
+  color: goldenrod;
+  font-size: 20px;
+  font-weight: bolder;
+}
+hr { 
+  height: 2px; 
+  background-color: goldenrod; 
+  border: none; 
+  margin-bottom: 8px;
+} 
+.but{
+  display: flex;
+  justify-content: space-evenly;
+}
+.register{
+  background-color: rgb(10, 10, 29);  
+  border-color: rgb(10, 10, 29);  
+  cursor: pointer;
+  border: 1px solid goldenrod;
+  color: goldenrod;
+  font-weight: bold;
+  margin-top: 5px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  letter-spacing: 2px;
+}
+.explore{
+  background-color: rgb(10, 10, 29);  
+  border-color: rgb(10, 10, 29);  
+  cursor: pointer;
+  border: 1px solid goldenrod;
+  color: goldenrod;
+  font-weight: bold;
+  margin-top: 5px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  letter-spacing:2px;
 }

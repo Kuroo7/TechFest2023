@@ -64,7 +64,7 @@ const SubTeamData = [
     {
         id: 6,
         name: "Shiv Poojan Pal",
-        position: "Hospitality Head",
+        position: "Hospitality Lead",
         photo: shiv,
         num: "6306643695"
     },
@@ -85,42 +85,42 @@ const SubTeamData = [
     {
         id: 8,
         name: "Aniket Gupta",
-        position: "Promotion lead",
+        position: "Promotion Lead",
         photo: aniket,
         num: "6306643695"
     },
     {
         id: 9,
         name: "Akshita Singh",
-        position: "Promotion lead",
+        position: "Promotion Lead",
         photo: atif,
         num: "6306643695"
     },
     {
         id: 10,
         name: "Nandini Bhardwaj",
-        position: "Content head",
+        position: "Content Lead",
         photo: nandni,
         num: "6306643695"
     },
     {
         id: 11,
         name: "Dev Verma",
-        position: "Content head",
+        position: "Content Lead",
         photo: dev,
         num: "6306643695"
     },
     {
         id: 12,
         name: "Shubhang Tripathi",
-        position: "Registation head",
+        position: "Registation Lead",
         photo: shubhang,
         num: "6306643695"
     },
     {
         id: 13,
         name: "Somya Singh",
-        position: "Registation head",
+        position: "Registation Lead",
         photo: atif,
         num: "6306643695"
     },

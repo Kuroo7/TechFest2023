@@ -1,4 +1,7 @@
+import logo from "../../assets/logoWithoutBG.png"
+
 import "./about.css"
+
 
 export const About = () => {
     return (
@@ -22,7 +25,8 @@ export const About = () => {
                         </div>
                     </div>
                     <div className="right">
-                        <img src="/src/assets/logo.png" alt="logo" />
+                        {/* <img src="/src/assets/logo.png" alt="logo" /> */}
+                        <img className="about-logo" src={logo} alt="logo" />
                     </div>
                 </div>
             </div>

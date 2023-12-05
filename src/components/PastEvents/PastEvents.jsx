@@ -1,6 +1,7 @@
 
 import "./pastEvents.css"
 // import EventCarousel from "../EventsCarousel/EventCarousel"
+import sample from "../../assets/sample.jpeg"
 const PastEvents = () => {
     return (
         <>
@@ -29,25 +30,25 @@ const PastEvents = () => {
                         <div className="card">
                             <h5>Performer</h5>
                             <div className="card-image">
-                                <img className="background-img" src="/src/assets/sample.jpeg" alt="" />
+                                <img className="background-img" src={sample} alt="" />
                             </div>
                         </div>
                         <div className="card">
                             <h5>Performer</h5>
                             <div className="card-image">
-                                <img className="background-img" src="/src/assets/sample.jpeg" alt="" />
+                                <img className="background-img" src={sample} alt="" />
                             </div>
                         </div>
                         <div className="card">
                             <h5>Performer</h5>
                             <div className="card-image">
-                                <img className="background-img" src="/src/assets/sample.jpeg" alt="" />
+                                <img className="background-img" src={sample} alt="" />
                             </div>
                         </div>
                         <div className="card">
                             <h5>Performer</h5>
                             <div className="card-image">
-                                <img className="background-img" src="/src/assets/sample.jpeg" alt="" />
+                                <img className="background-img" src={sample} alt="" />
                             </div>
                         </div>
                     </div>

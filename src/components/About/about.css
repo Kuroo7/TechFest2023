@@ -59,11 +59,12 @@
   align-items: center;
   flex-wrap: wrap;
 }
-.right img {
+
+/* .about-logo {
   height: 40rem;
   width: 40rem;
   object-fit: cover;
-}
+} */
 .buttons {
   display: flex;
   align-items: center;

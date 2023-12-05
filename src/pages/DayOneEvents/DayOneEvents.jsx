@@ -1,3 +1,5 @@
+import robot from "../../assets/robo.jpg"
+import star from "../../assets/staricon.png"
 import "./dayOneEvents.css"
 const DayOneEvents = () => {
     return (
@@ -5,12 +7,12 @@ const DayOneEvents = () => {
             <div className="DayOne-container">
                 <div className="ecard1">
                     <div className="eimage">
-                        <img src="../../assets/robo.jpg"/>
+                        <img src={robot}/>
                     </div>
                     <div className="ename">
-                        <p><img src="/src/assets/staricon.png" alt="" className="star"/></p>
+                        <p><img src={star} alt="" className="star"/></p>
                         <p className="eventname">Roborace</p>
-                        <p><img src="/src/assets/staricon.png" alt="" className="star"/></p>
+                        <p><img src={star} alt="" className="star"/></p>
                     </div>
                     <hr className="hr"/>
                     <div className="but">

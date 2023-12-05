@@ -13,7 +13,8 @@ export const About = () => {
                             About TechFest
                         </h1>
                         <p className="white" >
-                            TechFest is a two-day fiesta that calls in for various technical, egaming, and photography events, wrapped up with an exclusive event for each day. ABES has been organizing TechFest for over a years now, and with a foot fall of 2000+ students from different colleges in Delhi NCR, TechFest has been a success story
+                            Event Tech-Pravaah is a dynamic technical fest designed to create a confluence of innovation, learning, and collaboration. With the primary objective of fostering a tech-driven ecosystem, this event brings together a diverse audience comprising students, entrepreneurs, tech enthusiasts, and seasoned speakers. Through a series of engaging workshops, keynote sessions, and interactive demonstrations, Tech-Pravaah aims to inspire and empower attendees with the latest advancements in technology.
+
                         </p>
                         <div className="buttons">
                             <button className="events" >

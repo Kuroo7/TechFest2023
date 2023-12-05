@@ -82,12 +82,12 @@ const Footer = () => {
                   </li>
 
                   <li>
-                    <a href='https://instagram.com/genero.abesec'><FontAwesomeIcon className='socialIcon' icon={faYoutube} /></a>
+                    <a href='#'><FontAwesomeIcon className='socialIcon' icon={faYoutube} /></a>
 
                   </li>
 
                   <li>
-                    <a href='https://www.facebook.com/genero.abesec/'><FontAwesomeIcon className='socialIcon' icon={faFacebook} /></a>
+                    <a href='#'><FontAwesomeIcon className='socialIcon' icon={faFacebook} /></a>
                   </li>
 
 
@@ -96,13 +96,13 @@ const Footer = () => {
               </li>
 
               <li className="footer-item">
-                <a href="mailto:contact@example.com" className="footer-link">contact@example.com</a>
+                <a href="mailto:techfest23@abes.ac.in" className="footer-link">techfest23@abes.ac.in</a>
               </li>
 
 
               <li className="footer-item">
                 <FontAwesomeIcon icon={faSquarePhone} style={{ color: "#26d110", }} />
-                <a href="tel:+152534468854" className="footer-link">+152 534-468-854</a>
+                <a href="tel:+919508219804" className="footer-link">+91 9508219804</a>
               </li>
             </ul>
 
@@ -128,8 +128,6 @@ const Footer = () => {
 
           </div>
         </div >
-
-
         <br />
       </footer >
     </>

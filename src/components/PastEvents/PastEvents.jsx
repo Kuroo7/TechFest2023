@@ -1,7 +1,8 @@
 
 import "./pastEvents.css"
 // import EventCarousel from "../EventsCarousel/EventCarousel"
-import sample from "../../assets/sample.jpeg"
+import vanmoon from "../../assets/Vanmoon.png"
+import shyam from "../../assets/Shyam.png"
 const PastEvents = () => {
     return (
         <>
@@ -30,25 +31,25 @@ const PastEvents = () => {
                         <div className="card">
                             <h5>Performer</h5>
                             <div className="card-image">
-                                <img className="background-img" src={sample} alt="" />
+                                <img className="background-img" src={vanmoon} alt="" />
                             </div>
                         </div>
                         <div className="card">
                             <h5>Performer</h5>
                             <div className="card-image">
-                                <img className="background-img" src={sample} alt="" />
+                                <img className="background-img" src={shyam} alt="" />
                             </div>
                         </div>
                         <div className="card">
                             <h5>Performer</h5>
                             <div className="card-image">
-                                <img className="background-img" src={sample} alt="" />
+                                <img className="background-img" src={vanmoon} alt="" />
                             </div>
                         </div>
                         <div className="card">
                             <h5>Performer</h5>
                             <div className="card-image">
-                                <img className="background-img" src={sample} alt="" />
+                                <img className="background-img" src={vanmoon} alt="" />
                             </div>
                         </div>
                     </div>

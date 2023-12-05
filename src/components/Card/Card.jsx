@@ -83,7 +83,7 @@ export const Card = () => {
                         </div>
                     </div>
                 </div>
-                {/* <div className="main-card">
+                <div className="main-card">
                     <div className="back"></div>
                     <div className="photo">
                         <div className="circle">
@@ -100,7 +100,7 @@ export const Card = () => {
                             <a href="#"><FontAwesomeIcon className=' socialIcon' icon={faInstagram} /></a>
                         </div>
                     </div>
-                </div> */}
+                </div>
             </div>
         </div>
     )

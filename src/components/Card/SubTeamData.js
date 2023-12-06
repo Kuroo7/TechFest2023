@@ -14,9 +14,12 @@ import sanskriti from "../../assets/SubTeam/sanskriti.jpg"
 import shikhar from "../../assets/SubTeam/shikhar.jpg"
 import shiv from "../../assets/SubTeam/shiv.jpeg"
 import shubhang from "../../assets/SubTeam/shubhang.jpg"
-
 import ayushman from "../../assets/SubTeam/ayushman.JPG"
 import dhruv from "../../assets/SubTeam/dhruv.JPG"
+
+
+
+import somya from "../../assets/SubTeam/somya.JPG"
 const SubTeamData = [
 
     {
@@ -24,7 +27,7 @@ const SubTeamData = [
         name: "Manvi Singh",
         position: "Creative Lead",
         photo: manvi,
-        num: "6306643695"
+        num: "8707481237"
     },
     {
         id: 1,
@@ -38,133 +41,133 @@ const SubTeamData = [
         name: "Mohammad Ayan",
         position: "Website Lead",
         photo: ayan,
-        num: "6306643695"
+        num: "8954518446"
     },
     {
         id: 3,
         name: "Mansi Tyagi",
         position: "Communication Lead",
         photo: mansi,
-        num: "6306643695"
+        num: "9625900143"
     },
     {
         id: 4,
         name: "Ayaz Ahmad",
         position: "Communication Lead",
         photo: ayaz,
-        num: "6306643695"
+        num: "9555792171"
     },
     {
         id: 5,
         name: "Sanskriti Pathak",
         position: "Hospitality Lead",
         photo: sanskriti,
-        num: "6306643695"
+        num: "9891867267"
     },
     {
         id: 6,
         name: "Shiv Poojan Pal",
         position: "Hospitality Lead",
         photo: shiv,
-        num: "6306643695"
+        num: "7309526949"
     },
     {
         id: 6,
         name: "Dhruv Gangwani",
         position: "Graphics Lead",
         photo: dhruv,
-        num: "6306643695"
+        num: "7668902883"
     },
     {
         id: 7,
         name: "Ayushman Kushwaha",
         position: "	Graphics Lead",
         photo: ayushman,
-        num: "6306643695"
+        num: "8700130653"
     },
     {
         id: 8,
         name: "Aniket Gupta",
         position: "Promotion Lead",
         photo: aniket,
-        num: "6306643695"
+        num: "7007132183"
     },
     {
         id: 9,
         name: "Akshita Singh",
         position: "Promotion Lead",
         photo: atif,
-        num: "6306643695"
+        num: "7007733592"
     },
     {
         id: 10,
         name: "Nandini Bhardwaj",
         position: "Content Lead",
         photo: nandni,
-        num: "6306643695"
+        num: "9368207592"
     },
     {
         id: 11,
         name: "Dev Verma",
         position: "Content Lead",
         photo: dev,
-        num: "6306643695"
+        num: "7428498109"
     },
     {
         id: 12,
         name: "Shubhang Tripathi",
         position: "Registation Lead",
         photo: shubhang,
-        num: "6306643695"
+        num: "9555986795"
     },
     {
         id: 13,
         name: "Somya Singh",
         position: "Registation Lead",
-        photo: atif,
-        num: "6306643695"
+        photo: somya,
+        num: "8929712603"
     },
     {
         id: 14,
         name: "Maahi Tyagi",
         position: "	Social media Lead",
         photo: maahi,
-        num: "6306643695"
+        num: "9667423700"
     },
     {
         id: 15,
         name: "Darsh Verma",
         position: "	Social media Lead",
         photo: darsh,
-        num: "6306643695"
+        num: "9311793423"
     },
     {
         id: 16,
         name: "Shikhar Shaurya",
         position: "Production Lead",
         photo: shikhar,
-        num: "6306643695"
+        num: ""
     },
     {
         id: 17,
         name: "Sagar Panwar",
         position: "Production Lead",
         photo: sagar,
-        num: "6306643695"
+        num: "9105939555"
     },
     {
         id: 19,
         name: "Abhishek Kumar",
         position: "Inventory Lead",
         photo: abhishek,
-        num: "6306643695"
+        num: "8318196532"
     },
     {
         id: 20,
         name: "Harshit Jaiswal",
         position: "Inventory Lead",
         photo: atif,
-        num: "6306643695"
+        num: "8957159908"
     },
 ]
 export default SubTeamData;

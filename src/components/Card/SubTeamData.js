@@ -19,6 +19,7 @@ import dhruv from "../../assets/SubTeam/dhruv.JPG"
 
 
 
+// import somya from "../../assets/SubTeam/somya.JPG"
 import somya from "../../assets/SubTeam/somya.JPG"
 const SubTeamData = [
 

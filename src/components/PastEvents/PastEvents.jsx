@@ -10,19 +10,7 @@ const PastEvents = () => {
           <div className="PEleft">
             <h1>Know about the past.</h1>
             <p>
-              Reflecting on the vibrant memories of ABES last year's TechFest
-              Vibes-Revolution, we reminisce about an extraordinary confluence
-              of technology and entertainment. The event was graced with a
-              sensational DJ Night featuring the energetic beats of DJ Vanmoon.
-              The intellectual dimension of the event was enriched by
-              thought-provoking sessions from distinguished speakers like Shyam
-              Sundar Pathak, Assistant Commissioner of GST, Noida.Additional
-              wisdom was shared by speakers Saurabh Jain and Aditya
-              Kumar.Exciting events like Gaming Odyssey, Robo Soccer, Junkyard,
-              Circuitron, Coding Feud, and Big Business Idea added to the
-              vibrancy. This TechFest was a celebration of innovation,
-              creativity, and a vibrant tech-driven community, leaving an
-              indelible mark on the collective memory of ABES College."
+              The first edition of Tech Pravaah was a resounding success, bringing together tech enthusiasts, students, and professionals for a weekend of exciting events, workshops, and networking opportunities. Here's a look back at the highlights:- Hackathon, Gaming Odyssey, Drone Show, Degrees of sounds, Tech Talks, Workshops etc. Tech Pravaah was a resounding success, exceeding expectations and setting the bar high for future editions. The event showcased the power of technology to connect people, solve problems, and create a better future. We now have the next edition of Tech Pravaah in store!
             </p>
             <button className="PEbutton">View Gallery</button>
           </div>

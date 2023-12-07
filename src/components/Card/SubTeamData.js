@@ -20,7 +20,7 @@ import dhruv from "../../assets/SubTeam/dhruv.JPG"
 
 
 // import somya from "../../assets/SubTeam/somya.JPG"
-import somya from "../../assets/SubTeam/somya.JPG"
+import somya from "../../assets/SubTeam/somya.jpg"
 const SubTeamData = [
 
     {
@@ -73,7 +73,7 @@ const SubTeamData = [
         num: "7309526949"
     },
     {
-        id: 6,
+        id: 21,
         name: "Dhruv Gangwani",
         position: "Graphics Lead",
         photo: dhruv,

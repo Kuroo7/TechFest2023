@@ -1,10 +1,13 @@
 .DayOne-container {
+  display: flex;
+  flex-wrap: wrap;
   height: 100vh;
   width: 100vw;
   background-color: black;
 }
-.ecard1{
-  margin: 10%;
+.ecard1 {
+  margin-top: 8%;
+  margin-left: 10%;
   width: 200px;
   height: 260px;
   background: url("/src/assets/day1bg.jpg");
@@ -15,46 +18,46 @@
   text-align: center;
   align-items: center;
 }
-.eimage{
+.eimage {
   width: 180px;
   height: auto;
   margin-top: 15px;
   margin-left: 8px;
   margin-bottom: 18px;
 }
-.eimage img{
+.eimage img {
   width: 180px;
   height: auto;
   border: 1px solid goldenrod;
   border-style: dashed;
 }
-.ename{
+.ename {
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
   margin-bottom: 18px;
 }
-.star{
+.star {
   height: 30px;
   width: 30px;
 }
-.eventname{
+.eventname {
   color: goldenrod;
   font-size: 20px;
   font-weight: bolder;
 }
-hr { 
-  height: 2px; 
-  background-color: goldenrod; 
-  border: none; 
+hr {
+  height: 2px;
+  background-color: goldenrod;
+  border: none;
   margin-bottom: 8px;
-} 
-.but{
+}
+.but {
   display: flex;
   justify-content: space-evenly;
 }
-.register{
-  background-color: rgb(10, 10, 29);  
-  border-color: rgb(10, 10, 29);  
+.register {
+  background-color: rgb(10, 10, 29);
+  border-color: rgb(10, 10, 29);
   cursor: pointer;
   border: 1px solid goldenrod;
   color: goldenrod;
@@ -66,9 +69,9 @@ hr {
   padding-right: 8px;
   letter-spacing: 2px;
 }
-.explore{
-  background-color: rgb(10, 10, 29);  
-  border-color: rgb(10, 10, 29);  
+.explore {
+  background-color: rgb(10, 10, 29);
+  border-color: rgb(10, 10, 29);
   cursor: pointer;
   border: 1px solid goldenrod;
   color: goldenrod;
@@ -78,5 +81,5 @@ hr {
   padding-top: 5px;
   padding-left: 8px;
   padding-right: 8px;
-  letter-spacing:2px;
+  letter-spacing: 2px;
 }

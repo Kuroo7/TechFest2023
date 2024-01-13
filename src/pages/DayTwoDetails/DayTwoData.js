@@ -62,7 +62,7 @@ const dayTwoData = [
         spocDetails: '',
         paymentLink: "",
         // redirectLink: "/cultural/NrutyamS",
-        redirectLink: "/Day1/RoboRace",
+        redirectLink: "/Day1/WebsiteGeneration",
     },
 ]
 export default dayTwoData

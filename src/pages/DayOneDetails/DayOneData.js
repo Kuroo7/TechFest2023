@@ -65,7 +65,7 @@ const dayOneData = [
         id: 8,
         name: "Workshop",
         imgSrc: "#",
-        heading: "Workshop",
+        heading: "Work-shop",
         venue: "TBD",
         headingPara: [
             "1. Virtual Reality Workshop : Step into the future with our Virtual Reality Workshop! Explore the cutting-edge technology of VR and learn to create immersive experiences. From gaming to education, discover the diverse applications of VR and gain hands-on experience in developing your own virtual worlds. This workshop will demystify the complexities of VR, offering a comprehensive overview of its principles and potential. Immerse yourself in a dynamic learning environment where creativity meets technology, and leave with the skills to shape the digital landscapes of tomorrow.",

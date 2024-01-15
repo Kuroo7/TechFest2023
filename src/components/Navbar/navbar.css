@@ -206,6 +206,17 @@
 
   #ham:checked ~ .nav-items {
     display: flex;
+    animation: navBarAni 400ms 1 linear;
+  }
+  @keyframes navBarAni {
+    from{
+      width: 0;
+      background-color: #4f504f;
+    }
+    to{
+      width: 100%;
+      background-color: black;
+    }
   }
   #ham:checked ~ .open {
     display: none;

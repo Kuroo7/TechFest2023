@@ -123,5 +123,108 @@ const dayOneData = [
         paymentLink: "",
         redirectLink: "/Day1/Hackathon",  
     },
+    {
+        id: 2,
+        name: "ClickAThon",
+        imgSrc: "#",
+        heading: "Click-A-Thon",
+        venue: "TBD",
+        headingPara: "Embark on a visual odyssey at Click-a-Thon, an awe-inspiring photography and cinematography event set against the backdrop of our grand amphitheater. This captivating event invites shutterbugs and filmmakers to weave their narratives around the theme of &quot;Ephemeral Elegance.&quot;",
+        rules: [
+            "1. Equipment: Participants must bring their own cameras or filming equipment. Mobile photography is also welcome, as creativity knows no bounds.",
+            "2. Submission Format: All entries must be submitted digitally. Photographs should be high-resolution JPEGs, and cinematography entries must be in MP4 or MOV format.",
+            "3. Theme Adherence: Entries should align with the event theme, &quot;Ephemeral Elegance.&quot; Judges will evaluate submissions based on creativity, interpretation of the theme, and technical proficiency.",
+            "4. Duration for Cinematography Entries: Short films should not exceed 5 minutes in duration, ensuring concise and impactful storytelling.",
+            "5. Ethical Guidelines: Respect the privacy and consent of individuals captured in photographs or films. Entries violating ethical standards will be disqualified.",
+            "6. Multiple Entries: Participants are allowed to submit up to two entries per category (photography and cinematography).",
+        ],
+        judgingCriteria: [
+
+        ],
+        spocDetails: '',
+        paymentLink: "",
+        redirectLink: "/Day1/ClickAThon",
+    },
+    {
+        id: 3,
+        name: "BridgeKriti",
+        imgSrc: "#",
+        heading: "BRIDGE KIRTI",
+        venue: "TBD",
+        headingPara: "Get ready to unleash your creativity and engineering prowess in an exciting competition where participants will transform humble ice cream sticks and glue into architectural marvels! The challenge is simple yet thrilling: construct a bridge that can bear the maximum weight without crumbling.",
+        rules: [
+            "1. Each team will be provided with a standard set of ice cream sticks and glue.",
+            "2. Construction time will be limited to [insert duration].",
+            "3. The bridge must be free-standing and able to support weights without external support.",
+            "4. Testing will be conducted to determine the maximum weight each bridge can hold.",
+
+        ],
+        judgingCriteria: [
+            "1. Innovative Designs: Showcase your team's creativity in designing a unique and efficient bridge.",
+            "2. Engineering Ingenuity: Put your engineering skills to the test as you strategize and construct the strongest bridge structure.",
+            "3. Teamwork: Collaborate effectively with your teammates to bring your vision to life.",
+
+        ],
+        spocDetails: '',
+        paymentLink: "",
+        redirectLink: "/Day1/BridgeKriti",
+    },
+    {
+        id: 4,
+        name: "GamingOdyssey",
+        imgSrc: "#",
+        heading: "GAMING ODYSSEY",
+        venue: "TBD",
+        headingPara: [
+            "Embark on an epic journey into the virtual realms of Gaming Odyssey! Join us for an adrenaline-fueled event where participants will dive into the world of online gaming, facing challenges, and competing for glory. This thrilling odyssey will feature four exciting games: &quot;BGMI,&quot; &quot;Valorant,&quot; &quot;Stumble Guys,&quot; and &quot;FIFA World Cup,&quot; along with a dash of high- speed racing in &quot;Need for Speed.&quot; Only the most skilled and resilient players will emerge victorious."
+        ],
+        rules: [
+            "1. Team Formation:",
+            "       • Participants can either join as solo players or form teams based on the event format.",
+            "       • Teams for BGMI can have up to four players, while Valorant teams can consist of up to five players.",
+            "       • Stumble Guys will be played individually, and FIFA World Cup will have team formations as per the game's structure.",
+            
+            "2. Gaming Devices:",
+            "       • Participants are required to bring their own gaming devices, such as PCs, laptops, or consoles, with the necessary configurations for smooth gameplay.",
+            
+            "3. Game Accounts:",
+            "       • Ensure that each participant has valid and updated accounts for BGMI, Valorant, Stumble Guys, FIFA World Cup, and Need for Speed.",
+            "       • Make sure that game clients are installed and ready to launch.",
+            
+            "4. Internet Connectivity:",
+            "       • Stable internet connectivity is crucial for an uninterrupted gaming experience.",
+            "       • Participants are responsible for ensuring a reliable internet connection during the event.",
+            "5. Game Mastery:",
+            "       • Familiarize yourself with the game mechanics, maps, and strategies of each game.",
+            "       • Mastery of in-game skills will be a key factor in determining the winners.",
+        ],
+        judgingCriteria: [
+            "1. Battle Royale Extravaganza: Engage in intense and strategic gameplay in BGMI, where survival is key. Outwit your opponents, navigate shrinking zones, and strive to be the last player standing.",
+            "2. Tactical Shooter Showdown: Immerse yourself in the fast-paced world of Valorant, showcasing your precision, teamwork, and strategic prowess. Only the most skilled agents will secure victory.",
+            "3. Whacky Obstacle Run: Navigate through hilarious and chaotic obstacle courses in Stumble Guys. Outsmart your rivals and be the first to stumble across the finish line.",
+            "4. Football Glory: Step onto the virtual pitch in the FIFA World Cup. Showcase your soccer skills, master your team's strategy, and aim for victory in this highly competitive football simulation.",
+            "5. High-Octane Racing: Feel the need for speed in Need for Speed. Burn rubber, outmaneuver opponents, and claim the title as the fastest racer on the track.",
+        ],
+        spocDetails: '',
+        paymentLink: "",
+        redirectLink: "/Day1/GamingOdyssey",
+    },
+    {
+        id: 9,
+        name: "ABInitio",
+        imgSrc: "#",
+        heading: "AB-INITIO",
+        venue: "TBD",
+        headingPara: "Welcome to Ab-Initio Circuit Challenge - where innovation meets impact in an electrifying inaugural event!  Brace yourselves for an extraordinary experience that blends physics, engineering, and creativity. In this unique challenge, participants will design and construct circuits made of everyday objects. The objective? Drop a weight onto the circuit, initiating a captivating chain reaction as it navigates through the carefully crafted path.",
+        rules: [
+
+        ],
+        judgingCriteria: [
+
+        ],
+        spocDetails: '',
+        paymentLink: "",
+        redirectLink: "/Day1/ABInitio",  
+    },
 ]
 export default dayOneData

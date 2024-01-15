@@ -31,11 +31,12 @@
 }
 .label {
   display: grid;
-  grid-template-columns: 4fr 0fr;
-  gap: 10px;
+  grid-template-columns: 1fr 50px;
+  gap: 0px;
   width: 100%;
   font-size: 23px;
   color: #39ff14;
+  /* border-bottom: 2px solid rgb(156, 238, 204); */
 
   margin-bottom: 10px;
 }
@@ -49,15 +50,22 @@
 }
 .label input {
   appearance: none;
+  width: 20px;
+  font-size: 1.5em;
+  position: relative;
+  overflow: hidden;
+  border-bottom: 2px solid rgb(156, 238, 204);
+
 }
 .label input::before {
   content: "+";
-  position: relative;
+  position: absolute;
   /* top: 50%; */
-  right: 30px;
+  /* left: 30px; */
+  /* right: 30px; */
   color: #39ff14;
-  /* transform: translateY(-50%); */
-  font-size: 1.5em;
+  width: 20px;
+  aspect-ratio: 1;
 }
 .faq-heading {
   color: #39ff14;
@@ -79,6 +87,7 @@
   overflow: hidden;
   transition: 0.5s;
   overflow-y: auto;
+  margin-top: 10px;
 }
 .label input:checked::before {
   content: "-";

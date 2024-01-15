@@ -1,9 +1,9 @@
 .event-card {
-  height: 60vh;
+  height: 100vh;
   width: 100vw;
   display: flex;
   /* background-color: aliceblue; */
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   overflow: hidden;
 }
@@ -12,21 +12,32 @@
   /* height: 40vh; */
   /* width: 100vw; */
   /* margin-top: 200px; */
-  display: flex;
-  justify-content: center;
+  display: grid;
+  width: 100%;
+  height: 100%;
+  /* justify-content: center;
+  align-items: center; */
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr;
   align-items: center;
-  flex-wrap: wrap;
+  justify-content: center;
+  /* flex-wrap: wrap; */
 }
 .profile-box1 {
-  height: 200px;
-  width: 350px;
+  /* height: 200px;
+  width: 350px; */
+  aspect-ratio: 7/4;
+  align-self: center;
   background: url(/src/assets/Day1.avif);
-  background-size: cover;
+  background-size: 100% 100%;
+  background-position: center center;
   border-radius: 25px;
-  margin: 120px;
+  margin: 20px auto;
   padding: 2rem 1rem;
   box-shadow: 3px 3px 34px green;
-  overflow-y: HIDDEN;
+  overflow-y: hidden;
+  max-width: 400px;
+
 }
 .profile-box1:hover {
   opacity: 80%;
@@ -39,12 +50,15 @@
   margin-top: 15px;
 }
 .profile-box2 {
-  height: 200px;
-  width: 350px;
+  /* height: 200px; */
+  /* width: 100%; */
+  aspect-ratio: 7/4;
+  max-width: 400px;
   background: url(../../assets/Day2.jpg);
-  background-size: cover;
+  background-size: 100% 100%;
+  background-position: center center;
   border-radius: 25px;
-  margin: 120px;
+  margin: 20px auto;
   padding: 2rem 1rem;
   box-shadow: 3px 3px 34px green;
   overflow-y: HIDDEN;
@@ -55,7 +69,7 @@
 @media screen and (max-width: 768px) {
   .wrapper {
     flex-direction: column;
-    margin-top: 217px;
+    /* margin-top: 217px; */
     position: absolute;
   }
   .profile-box1 {
